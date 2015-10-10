@@ -2,6 +2,24 @@
 
 The `etcd-pod-gen` tool generates a set of pod manifests for deploying a static etcd cluster under the Kubernetes Kubelet manifest directory. The generated templates can be used as a starting point for creating your own pod manifests for a production etcd cluster.
 
+## Install
+
+### Darwin
+
+```
+$ wget https://github.com/kelseyhightower/etcd-pod-gen/releases/download/0.0.1/etcd-pod-gen-darwin
+$ chmod +x etcd-pod-gen-darwin
+$ sudo mv etcd-pod-gen-darwin /usr/local/bin/etcd-pod-gen
+```
+
+### Linux
+
+```
+$ wget https://github.com/kelseyhightower/etcd-pod-gen/releases/download/0.0.1/etcd-pod-gen-linux
+$ chmod +x etcd-pod-gen-linux
+$ sudo mv etcd-pod-gen-darwin /usr/local/bin/etcd-pod-gen
+```
+
 ## Usage
 
 ```

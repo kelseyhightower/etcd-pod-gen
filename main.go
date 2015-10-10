@@ -27,7 +27,7 @@ type Member struct {
 	AdvertiseClientUrls      string `yaml:"advertise_client_urls"`
 	CloudProvider            string `yaml:"cloud_provider"`
 	ClusterToken             string `yaml:"cluster_token"`
-    DataVolumeId             string `yaml:"data_volume_id"`
+	DataVolumeId             string `yaml:"data_volume_id"`
 	WalVolumeId              string `yaml:"wal_volume_id"`
 	InitialAdvertisePeerUrls string `yaml:"initial_advertise_peer_urls"`
 	Image                    string `yaml:"image"`

@@ -17,7 +17,7 @@ $ sudo mv etcd-pod-gen-darwin /usr/local/bin/etcd-pod-gen
 ```
 $ wget https://github.com/kelseyhightower/etcd-pod-gen/releases/download/0.0.1/etcd-pod-gen-linux
 $ chmod +x etcd-pod-gen-linux
-$ sudo mv etcd-pod-gen-darwin /usr/local/bin/etcd-pod-gen
+$ sudo mv etcd-pod-gen-linux /usr/local/bin/etcd-pod-gen
 ```
 
 ## Usage
